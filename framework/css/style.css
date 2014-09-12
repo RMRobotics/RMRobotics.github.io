@@ -1,6 +1,31 @@
+/*
+Web page color schemes generally work best when colors are consistent throughout the page.
+Thus, we've provided the table below. To change one color, simply use find and replace (CNTL-F or CMD-F)
+to replace every instance of the 6 digit color code with another of your choosing. Beware:
+Setting two things to the same color will make them dificult to make different colors later!
+You can use very similar colors (see below) to make elements look almost identical but still 
+have independently changeable colors.
+
+For a means of generating color codes, we recommend http://www.w3schools.com/tags/ref_colorpicker.asp
+
+--Main text color: #262626 (A shade of grey- using grey or black is highly recommended)
+--Main page background color: #272727 (close enough to look almost the same, but still independent)
+--Subheader color: #9D9D9D
+--Outline color: #E0E0E0
+--Main section background color: #FFFFFF (white- highly recommended)
+
+The colors below are all especially theme related- on our page, they are all yellow. Use these
+to show off your team color!
+
+--Top bar color: #FFD000
+--Top bar selected button color: #F0C400
+--Link color: #DAB200
+
+*/
+
 body
 {
-	background-color:#262626;
+	background-color:#272727;
 	font-family:verdana;
 	font-size:12px;
 }
@@ -116,34 +141,6 @@ a:visited
 	font-size:125%;
 	background-color: #F0C400;
 }
-
-.wgbutton:link,.wgbutton:visited
-{
-	display:block;
-	width:100px;
-	height:100%;
-	color:#262626;
-	text-align:center;
-	line-height:50px;
-	text-decoration:none;
-	font-size:125%;
-	background-color:#8AB8E6;
-}
-
-
-.wgbutton:hover,.wgbutton:active
-{
-	display:block;
-	width:100px;
-	height:100%;
-	color:#262626;
-	text-align:center;
-	line-height:50px;
-	text-decoration:none;
-	font-size:125%;
-	background-color: #7AA3CC;
-}
-
 	
 .leftmain
 {

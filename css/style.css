@@ -1,6 +1,8 @@
 body
 {
 	background-color:#262626;
+	background-image: url("../img/bg.jpg");
+	background-repeat: repeat;
 	font-family:verdana;
 	font-size:12px;
 }
@@ -13,7 +15,8 @@ body
 	width:1040px;
 	margin-left:auto;
 	margin-right:auto;
-	background-color:#FFFFFF;
+	background-color:#333333;
+	color:#BBBBBB;
 	padding:20px;
 	padding-bottom:10px;
 	border-bottom-left-radius: 4px;
@@ -46,6 +49,11 @@ body
 	margin-right:auto;
 }
 
+.narrow
+{
+	width:780px;
+}
+
 .mainlogo
 {
 	height:100%;
@@ -63,7 +71,7 @@ body
 	color:#262626;
 	padding-left:10px;
 	padding-right:10px;
-	
+
 }
 
 .buttons
@@ -83,18 +91,18 @@ float: right;
 
 a
 {
-	color:#DAB200;
+	color:#AAAAAA;
 }
 
 a:visited
 {
-	color:#262626;
+	color:#EEEEEE;
 }
 
 .button:link,.button:visited
 {
 	display:block;
-	width:100px;
+	width:90px;
 	height:100%;
 	color:#262626;
 	text-align:center;
@@ -107,7 +115,7 @@ a:visited
 .button:hover,.button:active,.currentbutton
 {
 	display:block;
-	width:100px;
+	width:90px;
 	height:100%;
 	color:#262626;
 	text-align:center;
@@ -144,14 +152,12 @@ a:visited
 	background-color: #7AA3CC;
 }
 
-	
+
 .leftmain
 {
 	display: block;
 	float:left;
 	width:780px;
-	color:#262626;
-	background-color: #FFFFFF;
 	margin:0;
 }
 
@@ -164,39 +170,51 @@ a:visited
 
 .titleheader{
 	font-size:200%;
+	color: #EEEEEE;
 }
 
 .header{
 	font-size:175%;
+	color: #DDDDDD;
 }
 
 .subheader{
-	color:#9D9D9D;
+	color:#999999;
 }
 
 .post
 {
 	padding:10px;
 	margin-bottom:20px;
-	border: 1px solid #E0E0E0;
+	border: 1px solid #555555;
 	border-radius: 5px;
 	-moz-border-radius: 5px;
 	-webkit-border-radius: 5px;
 	overflow:hidden;
 }
 
-.postimg{
-	//max-width:95%;
-	padding:5px 30px 5px 30px;
+.postcontent{
+	padding:5px 50px 5px 50px;
 	text-align:center;
 	margin-left:auto;
 	margin-right:auto;
 }
 
-.leftimg{
+.left-content{
 	padding:5px 20px 5px 0px;
-	width:300px;
+	width:320px;
 	float:left;
+}
+
+.right-content{
+	padding:5px 0px 5px 20px;
+	width:320px;
+	float:right;
+}
+
+.paired{
+	padding-left: 0px;
+	padding-right: 0px;
 }
 
 .rightmain
@@ -214,7 +232,7 @@ a:visited
 {
 	display: block;
 	float:left;
-	color:#262626;
+	color:#BBBBBB;
 	width:100%;
 	height:40px;
 }
@@ -250,11 +268,10 @@ a:visited
 hr
 {
 	border: 0;
-    border-bottom: 1px solid #E0E0E0;
+    border-bottom: 1px solid #555555;
 }
 
 img
 {
 	max-width:100%;
 }
-

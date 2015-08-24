@@ -39,8 +39,6 @@ body
 
 .bar
 {
-	//background-image:url('grad.png');
-	//background-position:2px,2px;
 	color:#202020;
 	height:50px;
 	width:900px;
@@ -57,13 +55,13 @@ body
 {
 	height:100%;
 	display:inline;
-	vertical-align:-30%;
+	vertical-align:-42%;
 }
 
 .logo:link, .logo:visited
 {
-	font-size: 200%;
-	line-height:50px;
+	font-size: 175%;
+	line-height:40px;
 	float:left;
 	vertical-align:middle;
 	text-decoration:none;

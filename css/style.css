@@ -198,22 +198,35 @@ a:visited
 	margin-right:auto;
 }
 
+.gallery-item{
+	padding:1px 1px 1px 1px;
+	width:200px;
+}
+
 .left-content{
-	padding:5px 20px 5px 0px;
-	width:320px;
+	padding:5px 10px 5px 0px;
+	max-width:320px;
 	float:left;
+	clear:left;
 }
 
 .right-content{
-	padding:5px 0px 5px 20px;
-	width:320px;
+	padding:5px 0px 5px 10px;
+	max-width:320px;
 	float:right;
+	clear:right;
 }
 
+.unreasonably-tall{
+	height:200px;
+}
+
+/* .paired is Deprecated */
 .paired{
 	padding-left: 0px;
 	padding-right: 0px;
 }
+
 
 .rightmain
 {

@@ -6786,3 +6786,15 @@ button.close {
 .page-title .h1 {
   margin-top: 0px;
 }
+
+.blog-post-meta {
+  font-family: Raleway, sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  color: #262626;
+}
+
+p a,
+.p .a {
+  color: #eeb200 !important;
+}

@@ -6798,3 +6798,48 @@ p a,
 .p .a {
   color: #eeb200 !important;
 }
+
+.fadein {
+    position:absolute;
+    top:0px;
+    left:50%;
+    margin:auto;
+}
+.fadein img {
+    position:absolute;
+    left:-200px;
+    top:0;
+    -webkit-animation-name: fade;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-duration: 15s;
+    animation-name: fade;
+    animation-iteration-count: infinite;
+    animation-duration: 15s;
+}
+
+@-webkit-keyframes fade {
+    0% {opacity: 0;}
+    20% {opacity: 1;}
+    33% {opacity: 1;}
+    53% {opacity: 0;}
+    100% {opacity: 0;}
+}
+@keyframes fade {
+    0% {opacity: 0;}
+    20% {opacity: 1;}
+    33% {opacity: 1;}
+    53% {opacity: 0;}
+    100% {opacity: 0;}
+}
+
+#one {
+    background-color: lightblue;
+}
+#two {
+    -webkit-animation-delay: -10s;
+    background-color: yellow;
+}
+#three {
+    -webkit-animation-delay: -5s;
+    background-color: lightgreen;
+}

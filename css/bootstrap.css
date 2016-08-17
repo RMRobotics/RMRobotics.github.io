@@ -1215,7 +1215,7 @@ h6 .small,
 .h6 .small {
   font-weight: normal;
   line-height: 1;
-  color: #777;
+  color: #e0e0e0;
 }
 h1,
 .h1,
@@ -6797,4 +6797,32 @@ button.close {
 p a,
 .p .a {
   color: #eeb200 !important;
+}
+
+.sponsor-lg {
+  max-height: 300px;
+  max-width: 400px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.sponsor-md {
+  max-height: 200px;
+  max-width: 300px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.sponsor-sm {
+  max-height: 150px;
+  max-width: 200px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.sponsor-box {
+  position: absolute;
+  top: 50%;
+  transform: translate(-50%);
+  border: 1px dashed blue;
 }

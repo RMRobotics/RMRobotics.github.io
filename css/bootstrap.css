@@ -6833,13 +6833,13 @@ p a,
 }
 
 #one {
-    background-color: lightblue;
+
 }
+
 #two {
     -webkit-animation-delay: -10s;
-    background-color: yellow;
 }
+
 #three {
     -webkit-animation-delay: -5s;
-    background-color: lightgreen;
 }

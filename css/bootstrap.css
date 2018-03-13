@@ -6870,3 +6870,11 @@ p a,
   width: 20px;
   color: #262626;
 }
+
+.sponsor-text-custom {
+    font-family: Coustard;
+    font-style: normal;
+    font-weight: 400;
+    text-align:center;
+    color:#262626;
+}

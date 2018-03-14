@@ -6878,3 +6878,24 @@ p a,
     text-align:center;
     color:#262626;
 }
+
+.button.secondary {
+    background: #fff;
+    border: 1px solid #f9f9f9;
+    box-shadow: 0 1px 1px 0 rgba(0,0,0,.25);
+
+    border-radius: 25px;
+    text-align: center;
+    line-height: 1;
+    cursor: pointer;
+    width: 200px;
+
+    font-weight: 600;
+    line-height: 1.1;
+    color: #eeb200;
+    height: 30px;
+    margin: 0 0 0 1rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    font-weight: 900;
+}

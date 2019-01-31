@@ -20,7 +20,6 @@
       <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
-      <link rel="shortcut icon" type="image/png" href="favicon.png"/>
 </head>
 
 
@@ -29,37 +28,35 @@
     <!-- Fixed navbar -->
     <nav class="navbar navbar-default navbar-fixed-top">
         <div class="container">
+
             <div class="navbar-header">
                 <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-            <span class="sr-only">Toggle navigation</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
-                <a class="navbar-brand-logo" href="index"><img src="img/logo_100.png" class = "mainlogo"/></a>
-                <a class="navbar-brand" href="index">RM Robotics</a>
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                <a class="navbar-brand-logo" href="#"><img src="img/TeenHub/teenhublogoyellow.png" class = "mainlogo"/></a>
+                <a class="navbar-brand" href="#"></a>
             </div>
             <div id="navbar" class="navbar-collapse collapse">
                 <ul class="nav navbar-nav">
-                    <li><a href="index">Home</a></li>
-                    <li class="active"><a href="#">About</a></li>
-                    <li><a href="blog">Blog</a></li>
-                    <li><a href="sponsors">Sponsors</a></li>
-                    <li><a href="resources">Resources</a></li>
-                    <li><a href="events">Events</a></li>
-					<li><a href="teenhub/index.html">TeenHub</a></li>
+		    <li><a href="index.html">RM Robotics</a></li>
+                    <li><a href="TeenHub.html">Home</a></li>
+		    <li><a href="TeenHubAbout.html">About Us</a></li>
+                    <li class="active"><a href="#">Branches</a></li>
                 </ul>
-                <ul class="nav navbar-nav navbar-right">
-                    <li><a href="mailto:rmrobots@gmail.com"><img class="nav-icon" src="img/social/Google-black.svg"/></a></li>
-                    <li><a href="https://www.facebook.com/FTC5421/"><img class="nav-icon" src="img/social/Facebook-black.svg"/></a></li>
-                    <li><a href="https://twitter.com/ftc5421"><img class="nav-icon" src="img/social/Twitter-black.svg"/></a></li>
-                    <li><a href="https://www.github.com/rmrobotics"><img class="nav-icon" src="img/social/Github-black.svg"/></a></li>
-                    <li><a href="https://www.instagram.com/rmrobotics/"><img class="nav-icon" src="img/social/Instagram-black.svg.png"/></a></li>
-                </ul>
-            </div>
-            <!--/.nav-collapse -->
-        </div>
+                 <ul class="nav navbar-nav navbar-right">
+            <li><a href="mailto:teenhubworkshops@gmail.com"><img class="nav-icon" src="img/social/Google-black.svg"/></a></li>
+            <li><a href="https://www.facebook.com/FTC5421/"><img class="nav-icon" src="img/social/Facebook-black.svg"/></a></li>
+            <li><a href="https://twitter.com/ftc5421"><img class="nav-icon" src="img/social/Twitter-black.svg"/></a></li>
+            <li><a href="https://www.github.com/rmrobotics"><img class="nav-icon" src="img/social/Github-black.svg"/></a></li>
+            <li><a href="https://www.instagram.com/rmrobotics/"><img class="nav-icon" src="img/social/Instagram-black.svg.png"/></a></li>
+          </ul>
+        </div><!--/.nav-collapse -->
+      </div>
     </nav>
+  </ul>
 
 
     <div class="container">
@@ -83,7 +80,7 @@
 
         <p>FIRST Tech Challenge is a secondary school robotics competition, where teams of approximately ten students work together to build a robot to complete a series of challenges released each September. Teams are also tasked with promoting STEM education and the growth of FIRST in their communities. </p>
 
-        <p>Currently, RM Robotics serves one team in the FIRST Tech Challenge, Team 5421 RMâ€™d and Dangerous and Team 8121 RMageddon.</p>
+        <p>Currently, RM Robotics serves one team in the FIRST Tech Challenge, Team 5421 RM’d and Dangerous and Team 8121 RMageddon.</p>
 
         <!-- Site footer -->
         <footer class="footer">

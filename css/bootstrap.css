@@ -3125,6 +3125,7 @@ fieldset[disabled] .btn-default.focus {
   color: #262626;
   background-color: #eeb200;
   border-color: #262626;
+    font-weight: 700;
 }
 .btn-primary:focus,
 .btn-primary.focus {
@@ -4514,28 +4515,30 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 
 
 .navbar-default {
-  background-color: #e0e0e0;
+  background-color: #000;
   font-family: 'Poppins', sans-serif;
+    color:#eeb200;
   font-weight: 600;
   font-size: 15px;
 }
 .navbar-default .navbar-brand {
-  color: #202020;
+  color: #eeb200;
 }
 .navbar-default .navbar-brand:hover,
 .navbar-default .navbar-brand:focus {
-  color: #202020;
+  color: #eeb200;
   background-color: transparent;
 }
 .navbar-default .navbar-text {
   color: #202020;
 }
 .navbar-default .navbar-nav > li > a {
-  color: #202020;
+  color: #eeb200;
 }
 .navbar-default .navbar-nav > li > a:hover,
 .navbar-default .navbar-nav > li > a:focus {
-  color: #262626;
+  color: #eeb200;
+    background-color:#262626;
 }
 .navbar-default .navbar-nav > .active > a,
 .navbar-default .navbar-nav > .active > a:hover,
@@ -6878,7 +6881,6 @@ p a,
 .nav-icon {
   height: 15px;
   width: 15px;
-  color: #262626;
 }
 
 .sponsor-text-custom {

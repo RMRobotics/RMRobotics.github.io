@@ -1083,11 +1083,11 @@ html {
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 body {
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Barlow", sans-serif;
   font-size: 14px;
   line-height: 1.42857143;
-  color: #262626;
-  background-color: #fff;
+  color: #e0e0e0;
+  background-color: #262626;
 }
 input,
 button,
@@ -1184,10 +1184,10 @@ h6,
 .h4,
 .h5,
 .h6 {
-  font-family: Raleway, sans-serif;;
+  font-family: Poppins, sans-serif;;
   font-weight: 600;
   line-height: 1.1;
-  color: #eeb200;
+  color: #262626;
 }
 h1 small,
 h2 small,
@@ -1225,6 +1225,7 @@ h3,
 .h3 {
   margin-top: 20px;
   margin-bottom: 10px;
+    color:#262626;
 }
 h1 small,
 .h1 small,
@@ -1248,6 +1249,8 @@ h6,
 .h6 {
   margin-top: 10px;
   margin-bottom: 10px;
+        font-size: 36px;
+    color:#eeb200;
 }
 h4 small,
 .h4 small,
@@ -1273,19 +1276,22 @@ h2,
 }
 h3,
 .h3 {
-  font-size: 24px;
+  font-size: 35px;
+    color:#eeb200;
 }
 h4,
 .h4 {
   font-size: 18px;
+    color:#262626;
 }
 h5,
 .h5 {
-  font-size: 14px;
+  font-size: 36px;
 }
 h6,
 .h6 {
-  font-size: 12px;
+    color:#eeb200;
+  font-size: 25px;
 }
 p {
   margin: 0 0 10px;
@@ -3003,7 +3009,7 @@ select[multiple].input-lg {
 }
 .btn {
   display: inline-block;
-  padding: 6px 12px;
+  padding: 7px 12px;
   margin-bottom: 0;
   font-size: 14px;
   font-weight: normal;
@@ -3020,7 +3026,8 @@ select[multiple].input-lg {
           user-select: none;
   background-image: none;
   border: 1px solid transparent;
-  border-radius: 4px;
+  border-radius: 5px;
+    transition: 1s;
 }
 .btn:focus,
 .btn:active:focus,
@@ -3115,9 +3122,10 @@ fieldset[disabled] .btn-default.focus {
   background-color: #333;
 }
 .btn-primary {
-  color: #eeb200;
-  background-color: #ffffff;
-  border-color: #e0e0e0;
+  color: #262626;
+  background-color: #eeb200;
+  border-color: #262626;
+    font-weight: 700;
 }
 .btn-primary:focus,
 .btn-primary.focus {
@@ -4283,7 +4291,8 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   float: left;
   height: 60px;
   padding: 20px 20px;
-  font-size: 18px;
+  font-size: 20px;
+    font-weight: 700;
   line-height: 20px;
 }
 .navbar-brand:hover,
@@ -4335,6 +4344,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   padding-top: 10px;
   padding-bottom: 10px;
   line-height: 20px;
+    transition: .75s;
 }
 @media (max-width: 767px) {
   .navbar-nav .open .dropdown-menu {
@@ -4357,6 +4367,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   .navbar-nav .open .dropdown-menu > li > a:hover,
   .navbar-nav .open .dropdown-menu > li > a:focus {
     background-image: none;
+      background-color: black;
   }
 }
 @media (min-width: 768px) {
@@ -4504,35 +4515,36 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 
 
 .navbar-default {
-  background-color: #ffc300;
-  font-family: 'Raleway', sans-serif;
-  font-weight: 500;
-  font-size: 16px;
+  background-color: #000;
+  font-family: 'Poppins', sans-serif;
+    color:#eeb200;
+  font-weight: 600;
+  font-size: 15px;
 }
 .navbar-default .navbar-brand {
-  color: #202020;
+  color: #eeb200;
 }
 .navbar-default .navbar-brand:hover,
 .navbar-default .navbar-brand:focus {
-  color: #202020;
+  color: #eeb200;
   background-color: transparent;
 }
 .navbar-default .navbar-text {
   color: #202020;
 }
 .navbar-default .navbar-nav > li > a {
-  color: #202020;
+  color: #eeb200;
 }
 .navbar-default .navbar-nav > li > a:hover,
 .navbar-default .navbar-nav > li > a:focus {
-  color: #202020;
-  background-color: #f5b800;
+  color: #eeb200;
+    background-color:#262626;
 }
 .navbar-default .navbar-nav > .active > a,
 .navbar-default .navbar-nav > .active > a:hover,
 .navbar-default .navbar-nav > .active > a:focus {
-  color: #202020;
-  background-color: #eeb200;
+  color: #eeb200;
+  background-color: #262626;
 }
 .navbar-default .navbar-nav > .disabled > a,
 .navbar-default .navbar-nav > .disabled > a:hover,
@@ -4974,12 +4986,12 @@ a.badge:focus {
   padding-top: 30px;
   padding-bottom: 30px;
   margin-bottom: 30px;
-  color: #e0e0e0;
-  background-color: #262626;
+  color: #262626;
+  background-color: #eeb200;
 }
 .jumbotron h1,
 .jumbotron .h1 {
-  color: #eeb200;
+  color: #262626;
 }
 .jumbotron p {
   margin-bottom: 15px;
@@ -6829,12 +6841,13 @@ button.close {
   font-family: Raleway, sans-serif;
   font-weight: 500;
   font-size: 14px;
-  color: #262626;
+  color: #e0e0e0;
 }
 
 p a,
 .p .a {
-  color: #eeb200 !important;
+  color: #eeb200;
+    font-family: Barlow, sans-serif;
 }
 
 .sponsor-lg {
@@ -6866,9 +6879,8 @@ p a,
 }
 
 .nav-icon {
-  height: 20px;
-  width: 20px;
-  color: #262626;
+  height: 15px;
+  width: 15px;
 }
 
 .sponsor-text-custom {
